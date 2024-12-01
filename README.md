@@ -1,4 +1,4 @@
-<h1>Deep Learning Guide: MNIST Handwritten Digit Classification</h1>
+<h1>Deep Learning Guide with MNIST Handwritten Digit Classification</h1>
 
   <h2>Project Overview</h2>
   <p>
@@ -28,7 +28,61 @@
       Dataset Source: <a href="https://www.tensorflow.org/datasets/community_catalog/huggingface/mnist">MNIST Dataset on TensorFlow</a>
   </p>
 
-  <h2>Setup and Installation</h2>
+ 
+  <h2>Project Structure</h2>
+  <pre>
+      deep-learning-mnist/
+      ├── mnist_classification.ipynb        # Jupyter notebook with the implementation
+      ├──03_asn_cnn.ipynb                   # Jupyter notebook with the implementation of asn image classification 
+      ├── cnn.ipynb                         # Jupyter notebook with the notes on cnn and how they work 
+      ├── requirements.txt                 # List of dependencies
+      └── README.md                        # Project description and instructions
+  </pre>
+
+  <h2>Deep learning guide</h2>
+  <p>
+      The <strong>Deep Learning MNIST</strong> project directory contains several Jupyter notebooks, a requirements file, and the README file,
+      all of which contribute to implementing and understanding deep learning techniques for image classification.
+  </p>
+
+  <h3>1. mnist_classification.ipynb</h3>
+  <p>
+      This Jupyter notebook contains the implementation of a deep learning model for classifying handwritten digits from the <strong>MNIST</strong> dataset.
+      It demonstrates the process of data preprocessing, model building, training, and evaluation.
+  </p>
+
+  <h3>2. 03_asn_cnn.ipynb</h3>
+  <p>
+      This Jupyter notebook focuses on <strong>ASN (Artificial Sensor Network) Image Classification</strong> using Convolutional Neural Networks (CNN).
+      It introduces how CNNs can be applied to classify images in an ASN setup, offering a more specific application of CNNs for sensor data.
+  </p>
+
+  <h3>3. cnn.ipynb</h3>
+  <p>
+      This notebook serves as a detailed guide to understanding <strong>Convolutional Neural Networks (CNNs)</strong>.
+      It explains the theoretical aspects of CNNs, their architecture, how they work, and provides practical examples for better understanding of their implementation.
+  </p>
+
+  <h3>4. requirements.txt</h3>
+  <p>
+      This file contains the list of Python libraries required for running the notebooks, ensuring all dependencies (like TensorFlow, NumPy, Matplotlib, etc.) are installed.
+  </p>
+
+  <h3>5. README.md</h3>
+  <p>
+      The README file provides an overview of the project, including the technologies used, setup instructions, and the purpose of each notebook in the repository.
+  </p>
+
+  <h2>Model Implementation</h2>
+  <p>In this project, we explore the following steps:</p>
+
+  <h3>1. Data Preprocessing</h3>
+  <p>
+      - Load the MNIST dataset using TensorFlow.<br>
+      - Normalize the pixel values to a range between 0 and 1 for better model performance.<br>
+      - Reshape the data to match the input shape required by the neural network.
+  </p>
+ <h2>Setup and Installation</h2>
   <h3>1. Clone the repository:</h3>
   <pre>
       git clone https://github.com/yourusername/deep-learning-mnist.git
@@ -52,24 +106,6 @@
   <pre>
       jupyter notebook mnist_classification.ipynb
   </pre>
-
-  <h2>Project Structure</h2>
-  <pre>
-      deep-learning-mnist/
-      ├── mnist_classification.ipynb        # Jupyter notebook with the implementation
-      ├── requirements.txt                 # List of dependencies
-      └── README.md                        # Project description and instructions
-  </pre>
-
-  <h2>Model Implementation</h2>
-  <p>In this project, we explore the following steps:</p>
-
-  <h3>1. Data Preprocessing</h3>
-  <p>
-      - Load the MNIST dataset using TensorFlow.<br>
-      - Normalize the pixel values to a range between 0 and 1 for better model performance.<br>
-      - Reshape the data to match the input shape required by the neural network.
-  </p>
 
   <h3>2. Model Architecture</h3>
   <p>
