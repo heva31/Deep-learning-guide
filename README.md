@@ -1,4 +1,4 @@
-<h1>Deep Learning Guide: MNIST Handwritten Digit Classification</h1>
+<h1>Deep Learning Guide with MNIST Handwritten Digit Classification</h1>
 
   <h2>Project Overview</h2>
   <p>
